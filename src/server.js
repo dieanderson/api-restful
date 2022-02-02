@@ -12,7 +12,7 @@ db.connect()
 
 //Enable CORS
 const allowedOrigins = [
-    'http://127.0.0.1:49466',
+    'http://127.0.0.1:5500',
     'http://www.api.com.br'
 ]
 app.use(cors({
