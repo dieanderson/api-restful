@@ -11,8 +11,8 @@ db.connect()
 
 //Settings
 
-//Enable server receive data post method(form)
-app.use(express.urlencoded({ extended: true }))
+//Enable server receive data post method(json)
+app.use(express.json())
 
 //Def routes
 app.use('/api', routes)
